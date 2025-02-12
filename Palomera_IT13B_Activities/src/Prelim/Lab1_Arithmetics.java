@@ -7,7 +7,7 @@ public class Lab1_Arithmetics {
         int y = 4;
         int z = 6;
         
-        System.out.println(x + " * " + y + " + " + z + (x * y + z));
+        System.out.println(x + " * " + y + " + " + z + " = " + (x * y + z));
 
 
 
