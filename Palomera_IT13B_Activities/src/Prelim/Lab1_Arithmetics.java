@@ -1,16 +1,27 @@
 package Prelim;
 
+import java.util.Scanner;
+
 public class Lab1_Arithmetics {
     public static void main(String [] args) {
         
-        int x = 10;
-        int y = 4;
-        int z = 6;
+        int x;
+        int y;
+        int z;
+        
+        Scanner in= new Scanner(System.in);
+        
+        System.out.println("Enter 1st Number: ");
+        x = in.nextInt ();
+        System.out.println("Enter 2st Number: ");
+        y = in.nextInt ();
+        System.out.println("Enter 3st Number: ");
+        z = in.nextInt ();
         
         System.out.println(x + " * " + y + " + " + z + " = " + (x * y + z));
-
-
-
+        System.out.println("(" + x + " - " + y + " ) " + " % " + z + " = " + ((x - y) % z));
+        System.out.println("(" + x + " + " + y + " + " + z + ")" + " /" + " 3 " + " = " + ((x + y + z) / 3 ));
+        System.out.println(x + " * " + z + " - " + "(" + y + " * " + y + ")" + " = " + (x * z - (y * y)));
         
     }
 
